@@ -49,3 +49,26 @@
 }
 
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #111;
+  color: white;
+}
+
+.navbar-logo {
+  width: 100px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
